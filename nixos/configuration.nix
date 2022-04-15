@@ -89,6 +89,25 @@
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
 
+  # Desktop Setting
+  
+  # Set up desktop environment
+  # services.xserver.desktopManager.plasma5.enable = true;
+  # services.xserver.desktopManager.xfce.enable = true;
+  # services.xserver.desktopManager.gnome.enable = true;
+  # services.xserver.desktopManager.mate.enable = true;
+  
+  # Set up window manager
+  # services.xserver.windowManager.xmonad.enable = true;
+  # services.xserver.windowManager.twm.enable = true;
+  # services.xserver.windowManager.icewm.enable = true;
+  # services.xserver.windowManager.i3.enable = true;
+  # services.xserver.windowManager.herbstluftwm.enable = true;
+  
+  # Set login manager
+  # services.xserver.displayManager.sddm.enable = true;
+  # services.xserver.displayManager.gdm.enable = true;
+
   # services.gvfs.enable = true;
   
 
